@@ -1,0 +1,78 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    } 
+
+.background { 
+    background: #F5F5F5;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    }
+
+.anketa { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 420px;
+    height: 426px;
+    background: #FFFFFF; 
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+} 
+
+.anketa input { 
+    display: flex;
+    padding: 14px 16px;
+}
+
+.reg { 
+    text-align: left;
+    padding: 40px 32px 24px 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text { 
+padding: 24px 32px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #7B8E98;
+}
+
+input [type="submit"] {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    width: 356px;
+    height: 48px;
+    background: #FFE44D;
+    border-radius: 55px;
+} 
+
+input[name="email"], input[name="password"] {  
+    width: 100%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7B8E98;
+    } 
+    
